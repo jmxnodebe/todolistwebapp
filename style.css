@@ -1,0 +1,91 @@
+body {
+    background: mediumslateblue;
+}
+
+
+.header {
+    position: relative;
+    left: 41%;
+    border: 15px solid black;
+    width: fit-content;
+    padding: 8px;
+    
+}
+.formInput {
+    position: relative;
+    top: 10%;
+    left: 41%;
+    width: fit-content;
+}
+input[type = text] {
+    width: fit-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+#addButton {
+    width: 40px;
+    height: 40px;
+    border: 6px solid black;
+    background: paleturquoise;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.todoList {
+    position: relative;
+    left: 37%;
+    
+    
+}
+.todoContainer {
+    position: relative;
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    width: 250px;
+    margin-top: 5px;
+    padding: 5px;
+    word-wrap: break-word;
+}
+li {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: rgb(4, 19, 61);
+}
+ul{
+    list-style-type: none;
+}
+.deleteButton {
+    position: relative;
+    left: 67%;
+    width: fit-content;
+    border: 2px solid black;
+    background: rgb(116, 18, 18);
+    margin: 4px;
+    padding: 2px;
+    
+    
+}
+.completeButton {
+    position: relative;
+    left: 65%;
+    width: fit-content;
+    padding: 2px;
+    border: 2px solid black;
+    background: rgb(4, 133, 4);
+    margin: 4px;
+    
+}
+.renameButton {
+    position: relative;
+    left: 63%;
+    width: fit-content;
+    padding: 2px;
+    border: 2px solid black;
+    background: rgb(87, 87, 7);
+    margin: 4px;
+}
